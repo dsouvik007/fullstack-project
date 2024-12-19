@@ -1,0 +1,115 @@
+body {
+    font-family: "Plus Jakarta Sans", serif !important;
+    display: flex;
+    flex-direction: column !important;
+    min-height: 100vh !important;
+}
+
+.container {
+    flex: 1 !important;
+}
+
+.navbar {
+    height: 5rem;
+}
+
+.fa-compass {
+    color: #fe424d;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.i-info-Links a {
+    color: #222222;
+    text-decoration: none;
+}
+
+.i-info-Links a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.i-info-Links,
+.i-info-Socials,
+.i-info-Brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i-info-Socials i {
+    font-size: 1.3rem;
+    margin-right: 1.5rem;
+}
+
+.i-info {
+    display: flex;
+    height: 5rem;
+    background-color: beige;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p {
+    font-weight: 400;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* it is a bootstrap class that usses to show text on a card image */
+.card-img-overlay {
+    opacity: 0 !important;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.3 !important;
+    background-color: aliceblue !important;
+}
+
+.add-btn {
+    color: #fe424d !important;
+}
+
+/* //edit btn */
+.btn-edit {
+    color: #fe424d !important;
+}
+
+/* show page */
+.show-img {
+    height: 30vh;
+}
+
+/* to place the buttons in same row */
+.btns {
+    display: flex;
+}
+
+
+/* //map */
+
+#map {
+   height:400px;
+   width: 80vh;
+}
